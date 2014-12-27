@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails appbookcsp: development" uuid="ace9399f-eee6-43b4-9f14-e65c7a410f5d">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails appbookcsp: test" uuid="b4087c18-6e9a-4e54-8cde-039101746cfb">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails appbookcsp: production" uuid="3c1b34d6-69a1-4447-89e9-28381ba4f3c0">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
