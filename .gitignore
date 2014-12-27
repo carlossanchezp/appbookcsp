@@ -4,10 +4,70 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+# Gemfile.local.rb
+Gemfile.local.rb
+
 # Ignore bundler config.
 /.bundle
 
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/sphinx
+
 # Ignore all logfiles and tempfiles.
 /log/*
-!/log/.keep
 /tmp
+
+# Ignore binary stubs
+/bin
+
+# Ignore configuration files dependent on environment (.example file is used instead)
+/config/application.yml
+/config/settings.yml
+/config/settings/mailer.yml
+/config/settings/rollbar.yml
+/config/settings/user_voice.yml
+/config/settings/redis.yml
+/config/settings/scores.yml
+/config/database.yml
+/config/resque-pool.yml
+/config/redis.yml
+/config/sidekiq.yml
+/config/initializers/rubymine_passenger_debug.rb
+/config/thinking_sphinx.yml.example
+/config/*.sphinx.conf
+
+# Ignore development uploaded files
+/public/system
+/public/sitemap.xml.gz
+/public/assets
+/public/sprites
+/public/uploads
+/public/javascripts/translations.js
+
+# Textmate project files
+/*.tmpproj
+
+# Rubymine project files
+/.idea
+
+# Vim project files
+/*.vim
+*.swp
+/tags
+
+
+# RVM files
+/.rvmrc
+/.ruby-version
+/.ruby-gemset
+
+# Pow files
+/.powrc
+.shell_history
+.chamber.pem
+.pt
+
+# Redis dump file
+/dump.rdb
